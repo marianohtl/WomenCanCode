@@ -48,17 +48,15 @@ namespace OrcamentoDomestico
             avo.Telefone = 80;
 
             var despesaAvo = avo.ItensCozinha +avo.Eletrodomesticos + avo.Telefone;
-            Console.WriteLine("Despesas da mãe RS" + despesaAvo);
+            Console.WriteLine("Despesas da avó RS" + despesaAvo);
 
             filho.Roupas = 300;
             filho.Eletrodomesticos = 1500;
             filho.Escola = 700.55;
 
-
-           
-
-
-
+            
+            var despesaFilho= filho.ItensCozinha +filho.Eletrodomesticos + filho.Telefone;
+            Console.WriteLine("Despesas da avó RS" + despesaFilho);
 
         }
     }
