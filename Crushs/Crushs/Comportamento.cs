@@ -4,10 +4,30 @@ using System.Text;
 
 namespace Crushs
 {
-    class Comportamento
+    // colocamos a classe comportamento como interna , logo todas as classes que estiverem em qualquer outro projeto que não seja crush não pode ser vista
+    //internal
+  class Comportamento
     {
         public string Descricao { get; set; }
         public int Intensidade { get; set; }
+
+        private int myVar;
+
+        //alterando a regra e negócio conforme a necessidade 
+        public int MyProperty
+        {
+            get { return myVar; }
+
+            set {
+                
+                if(value < 5)
+                {
+                    myVar = 2;
+                }
+                
+                myVar = value; }
+        }
+
 
         //modificador 
         //privado e publico
@@ -24,5 +44,6 @@ namespace Crushs
         {
             Intensidade -= intensidade;
         }
+
     }
 }
