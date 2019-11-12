@@ -6,7 +6,7 @@ namespace Crushs
 {
     class Crush
     {
-        public string Apelido { get; set; }
+        protected string Apelido { get; set; }
         public string Telefone { get; set; }
         public string Local { get; set; }
         public EstadoCivil EstadoCivilCrush { get; set; }
@@ -14,10 +14,28 @@ namespace Crushs
         public int Avaliacao { get; set; }
 
         public List<Comportamento> Comportamentos{ get; set; }
-    }
 
+        private int PropriedadePrivada { get; set; }
+
+    }
+   
+    }
+        public string Aparencia(int nota)
+        {
+            switch (nota)
+            {
+                case 10:
+                    return "Moreno alto, bonito e sensual";
+                case 9:
+                    return "Moreno, alto, bonito";
+                case 8:
+                    return "Moreno, alto";
+                case 7:
+                    return "Moreno";
+            }
+        }
 //enum lista pre definida para limitar as possibilidades de escolhas
-        public enum EstadoCivil {
+    public enum EstadoCivil {
                 Solteiro,
                 Namorando,
                 Noivo,
@@ -25,4 +43,9 @@ namespace Crushs
                 Divorciado,
                 Viuvo
         }
+
+    // public void teste()
+    // {
+    //    PropriedadePrivada = 0;
+    //}
 }

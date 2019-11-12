@@ -41,7 +41,7 @@ namespace OrcamentoDomestico
             mae.Luz = 100.44;
             mae.Lazer = 100.99;
             var despesaMae = mae.Agua + mae.Lazer + mae.Luz;
-            Console.WriteLine("Despesas da mãe RS"+despesaMae);
+            Console.WriteLine($"Despesas de  RS"+despesaMae);
 
             avo.ItensCozinha = 50;
             avo.Eletrodomesticos = 10000;

@@ -9,3 +9,14 @@ C:\Users\maria\Documents\WomanCanCode-master\OrcamentoDomestico\obj\Debug\netcor
 C:\Users\maria\Documents\WomanCanCode-master\OrcamentoDomestico\obj\Debug\netcoreapp3.0\OrcamentoDomestico.AssemblyInfo.cs
 C:\Users\maria\Documents\WomanCanCode-master\OrcamentoDomestico\obj\Debug\netcoreapp3.0\OrcamentoDomestico.dll
 C:\Users\maria\Documents\WomanCanCode-master\OrcamentoDomestico\obj\Debug\netcoreapp3.0\OrcamentoDomestico.pdb
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\obj\Debug\netcoreapp3.0\OrcamentoDomestico.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\obj\Debug\netcoreapp3.0\OrcamentoDomestico.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\obj\Debug\netcoreapp3.0\OrcamentoDomestico.AssemblyInfo.cs
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\obj\Debug\netcoreapp3.0\OrcamentoDomestico.dll
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\obj\Debug\netcoreapp3.0\OrcamentoDomestico.pdb
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.exe
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.deps.json
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.runtimeconfig.json
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.runtimeconfig.dev.json
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.dll
+C:\Users\fic\Desktop\WomanCanCode\OrcamentoDomesticoFuncao\bin\Debug\netcoreapp3.0\OrcamentoDomestico.pdb

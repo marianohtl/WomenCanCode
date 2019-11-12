@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.exe
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.deps.json
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.runtimeconfig.json
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.runtimeconfig.dev.json
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.dll
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\bin\Debug\netcoreapp3.0\NomeQualquer.pdb
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\obj\Debug\netcoreapp3.0\NomeQualquer.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\obj\Debug\netcoreapp3.0\NomeQualquer.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\obj\Debug\netcoreapp3.0\NomeQualquer.AssemblyInfo.cs
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\obj\Debug\netcoreapp3.0\NomeQualquer.dll
+C:\Users\fic\Desktop\WomanCanCode\Crushs\NomeQualquer\obj\Debug\netcoreapp3.0\NomeQualquer.pdb

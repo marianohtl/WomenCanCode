@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\source\\repos\\Crushs\\Crushs\\Crushs.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Desktop\\WomanCanCode\\Crushs\\Crushs\\Crushs.csproj",
       "projectName": "Crushs",
-      "projectPath": "C:\\Users\\fic\\source\\repos\\Crushs\\Crushs\\Crushs.csproj",
+      "projectPath": "C:\\Users\\fic\\Desktop\\WomanCanCode\\Crushs\\Crushs\\Crushs.csproj",
       "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\source\\repos\\Crushs\\Crushs\\obj\\",
+      "outputPath": "C:\\Users\\fic\\Desktop\\WomanCanCode\\Crushs\\Crushs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

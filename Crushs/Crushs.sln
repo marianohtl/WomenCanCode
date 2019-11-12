@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crushs", "Crushs\Crushs.csproj", "{3D14C321-B691-4877-8EFE-CE9B4068C9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crushs", "Crushs\Crushs.csproj", "{3D14C321-B691-4877-8EFE-CE9B4068C9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NomeQualquer", "NomeQualquer\NomeQualquer.csproj", "{EFB95597-14B3-47DC-BE46-E190ECC9BBFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3D14C321-B691-4877-8EFE-CE9B4068C9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D14C321-B691-4877-8EFE-CE9B4068C9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D14C321-B691-4877-8EFE-CE9B4068C9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB95597-14B3-47DC-BE46-E190ECC9BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB95597-14B3-47DC-BE46-E190ECC9BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB95597-14B3-47DC-BE46-E190ECC9BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB95597-14B3-47DC-BE46-E190ECC9BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

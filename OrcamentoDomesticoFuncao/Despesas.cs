@@ -44,11 +44,13 @@ namespace OrcamentoDomestico
         public double Transporte { get; set; } = 0 ;
 
         public double CartaoCredito { get; set; } = 0 ;
+        
         public void CalcularDespesas(){
            
          var despesas = Aluguel + Agua + Luz + Telefone + Internet + Convenio + Medicamentos + Seguro + Mercado + Roupas + Escola + MaterialEscolar + Brinquedos + Eletrodomesticos + EletroEletronicos + ItensCozinha + Gas + Lazer +
          +Transporte + CartaoCredito;
-                        
+   
+
           Console.WriteLine($"R${despesas}"); 
 
         }

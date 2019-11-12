@@ -10,5 +10,7 @@ namespace Crushs
         public string URL { get; set; }
         public string Identificacao { get; set; }
         public Crush MeuCrush { get; set; }
+
+        private string PropPrivado {get;set;}
     }
 }

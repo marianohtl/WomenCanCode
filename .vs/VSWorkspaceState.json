@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OrcamentoDomestico"
+    "\\Crushs",
+    "\\Crushs\\Crushs",
+    "\\OOClasse"
   ],
-  "SelectedNode": "\\OrcamentoDomestico\\OrcamentoDomestico.sln",
+  "SelectedNode": "\\Crushs\\Crushs\\Crushs.csproj",
   "PreviewInSolutionExplorer": false
 }
