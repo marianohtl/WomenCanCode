@@ -1,0 +1,11 @@
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.exe
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.deps.json
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.runtimeconfig.json
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.runtimeconfig.dev.json
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.dll
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.pdb
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.csprojAssemblyReference.cache
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.AssemblyInfoInputs.cache
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.AssemblyInfo.cs
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.dll
+C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.pdb

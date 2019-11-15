@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetShop
 {
-    class Servicos
+    public class Servicos
     {
         public int Id { get; set; }
         public string Descricao { get; set; }

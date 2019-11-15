@@ -12,24 +12,37 @@ namespace PetShop
         public decimal Salario { get; set; }
 
         public string CodigoCracha { get; set; }
-        public Cargos Cargo { get; set; }
 
-        public enum Cargos
+        public string Banco { get; set; }
+
+        public string ContaCorrente { get; set; }
+
+        public string Agencia { get; set; }
+
+        public int DiaPagamento { get; set; }
+        public string EfetuarPagamento()
         {
-            Vendedor,
-            Vendedora,
-            Faxineira,
-            Veterinária,
-            Veterinário,
-            Tosador,
-            Motorista,
-            OperadoraCaixa,
-            Recepcionista,
-            Trainee,
-            Estagiario,
-            Gerente
+            if(DiaPagamento == DateTime.Today.Day)
+            {
+                return $"O valor {Salario}  foi depositado " +
+                    $"no banco {Banco}, agência {Agencia}" +
+                    $"conta corrente {ContaCorrente}";
 
+            }
 
+            return $"Sinto muito mas o dia do pagamento é " +
+                $"{DiaPagamento}";
+
+        }
+
+        public void AdmitirFuncionario(decimal salario,string codigoCrasha,string banco, string contaCorrente,string agencia){
+            DataEntrada = DateTime.Today;
+            Salario = salario;
+            CodigoCracha = codigoCrasha;
+            Banco = banco;
+            ContaCorrente = contaCorrente;
+            Agencia = agencia;
+            DiaPagamento = 10;
         }
     }
 }

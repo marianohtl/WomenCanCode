@@ -7,6 +7,12 @@ namespace PetShop
     //aqui não podemos usar essa classe como objeto 
     public abstract class Pessoa
     {
+        //instanciamos no consultor, ele não necessita ser instanciado depois
+        public Pessoa()
+        {
+            MeuEndereco = new Endereco();
+        }
+
         public int Id { get; set; }
 
         public  DateTime DataNascimento  { get; set; }
@@ -41,6 +47,8 @@ namespace PetShop
                     }
 
         }
+
+
 
 
     }

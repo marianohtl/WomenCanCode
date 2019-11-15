@@ -1,0 +1,8 @@
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\bin\Debug\netcoreapp3.0\PetShop.deps.json
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\bin\Debug\netcoreapp3.0\PetShop.dll
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\bin\Debug\netcoreapp3.0\PetShop.pdb
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\obj\Debug\netcoreapp3.0\PetShop.csprojAssemblyReference.cache
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\obj\Debug\netcoreapp3.0\PetShop.AssemblyInfoInputs.cache
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\obj\Debug\netcoreapp3.0\PetShop.AssemblyInfo.cs
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\obj\Debug\netcoreapp3.0\PetShop.dll
+C:\Users\fic\source\repos\BrincandoDeCodar\PetShop\obj\Debug\netcoreapp3.0\PetShop.pdb
