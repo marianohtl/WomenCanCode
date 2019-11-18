@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "BrincandoDeCodar/1.0.0": {
+        "dependencies": {
+          "PetShop": "1.0.0"
+        },
         "runtime": {
           "BrincandoDeCodar.dll": {}
+        }
+      },
+      "PetShop/1.0.0": {
+        "runtime": {
+          "PetShop.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BrincandoDeCodar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetShop/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

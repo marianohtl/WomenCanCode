@@ -9,3 +9,17 @@ C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp
 C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.AssemblyInfo.cs
 C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.dll
 C:\Users\fic\source\repos\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.pdb
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.exe
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.deps.json
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.runtimeconfig.json
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.runtimeconfig.dev.json
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.dll
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\BrincandoDeCodar.pdb
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\PetShop.dll
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\bin\Debug\netcoreapp3.0\PetShop.pdb
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.csprojAssemblyReference.cache
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.AssemblyInfoInputs.cache
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.AssemblyInfo.cs
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.csproj.CopyComplete
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.dll
+C:\Users\maria\Desktop\WomanCanCode\BrincandoDeCodar\BrincandoDeCodar\obj\Debug\netcoreapp3.0\BrincandoDeCodar.pdb

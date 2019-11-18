@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BrincandoDeCodar",
     "\\Crushs",
-    "\\Crushs\\Crushs",
-    "\\OOClasse"
+    "\\Crushs\\Crushs"
   ],
-  "SelectedNode": "\\Crushs\\Crushs\\Crushs.csproj",
+  "SelectedNode": "\\Crushs",
   "PreviewInSolutionExplorer": false
 }

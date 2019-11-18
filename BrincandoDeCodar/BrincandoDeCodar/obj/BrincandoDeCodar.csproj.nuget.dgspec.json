@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj": {}
+    "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj": {
+    "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj",
         "projectName": "BrincandoDeCodar",
-        "projectPath": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\BrincandoDeCodar\\obj\\",
+        "projectPath": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\BrincandoDeCodar\\BrincandoDeCodar.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\BrincandoDeCodar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -32,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\PetShop.csproj": {
-                "projectPath": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\PetShop.csproj"
+              "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\PetShop.csproj": {
+                "projectPath": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\PetShop.csproj"
               }
             }
           }
@@ -65,23 +63,21 @@
         }
       }
     },
-    "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\PetShop.csproj": {
+    "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\PetShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\PetShop.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\PetShop.csproj",
         "projectName": "PetShop",
-        "projectPath": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\PetShop.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\source\\repos\\BrincandoDeCodar\\PetShop\\obj\\",
+        "projectPath": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\PetShop.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\Desktop\\WomanCanCode\\BrincandoDeCodar\\PetShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

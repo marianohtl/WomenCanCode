@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floricultura", "Floricultura\Floricultura.csproj", "{ED330879-55BA-41F1-A69D-D2EFD9385020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80FB94F8-87B2-4A68-A498-8620816E89C9}"
+	ProjectSection(SolutionItems) = preProject
+		Flores.cs = Flores.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED330879-55BA-41F1-A69D-D2EFD9385020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED330879-55BA-41F1-A69D-D2EFD9385020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED330879-55BA-41F1-A69D-D2EFD9385020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED330879-55BA-41F1-A69D-D2EFD9385020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D3DB9DD-8FFC-42A4-8B08-D0CE59CAE7D6}
+	EndGlobalSection
+EndGlobal
