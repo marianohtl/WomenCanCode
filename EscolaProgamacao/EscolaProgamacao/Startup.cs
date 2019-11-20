@@ -12,7 +12,10 @@ using Microsoft.Extensions.Hosting;
 namespace EscolaProgamacao
 {
     public class Startup
-    {
+    {/// <summary>
+    /// configurações que passamos para um servidor / configurações, "basicacmente é aqui que dizemos que estamos trabalhando com arquitetura mvc"
+    /// </summary>
+    /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -22,13 +25,13 @@ namespace EscolaProgamacao
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {       
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
+        {       //
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -46,8 +49,10 @@ namespace EscolaProgamacao
 
             app.UseAuthorization();
 
+            //endpoint
             app.UseEndpoints(endpoints =>
-            {
+            {//controller/ação/ se precisar <id>    Aqui também definimos os endpoins
+              // http root > arquivos staticos , imagens, arquivos html são armazenados aqui 
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

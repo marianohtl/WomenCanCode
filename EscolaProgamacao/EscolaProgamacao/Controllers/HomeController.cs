@@ -23,6 +23,27 @@ namespace EscolaProgamacao.Controllers
             return View();
         }
 
+
+        //definindo rotas 
+        [Route("materias")]
+        public IActionResult Materias() {
+
+            List<Materia> materias = new List<Materia>();
+            materias.Add(new Materia()
+            {
+                Nome = "React",
+                Descricao = "Desenvolvimento Web"
+            });
+
+            materias.Add(new Materia()
+            {
+                Nome = "C#"
+            });
+
+            return View("Views/Home/materias/Materias.cshtml", materias);
+        }
+        //acima mostrando telas 
+        //https://localhost:44309/home/materias
         public IActionResult Privacy()
         {
             return View();
