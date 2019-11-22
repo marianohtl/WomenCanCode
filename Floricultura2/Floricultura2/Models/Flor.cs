@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Floricultura2.Models
+{
+    public class Flor
+    {
+        public int Id { get; set; }
+
+        public string Especie { get; set; }
+
+        public string Descricao { get; set; }
+
+        public string Cor { get; set; }
+
+        public double Preco { get; set; }
+
+
+    }
+}
