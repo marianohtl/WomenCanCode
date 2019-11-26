@@ -23,6 +23,8 @@ namespace Floricultura2.Controllers
         }
 
 
+        
+
         //fazendo com que a nossa florcontroller nos retorne uma view
         ///sem este datanotation nada funciona 
         [HttpGet]
@@ -35,7 +37,14 @@ namespace Floricultura2.Controllers
         public IActionResult Criar(Flor flor)
         {
             _repositorio.Adicionar(flor);
-            return View();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Route("Flores/Detalhes/{id}")]
+        public IActionResult Detalhes(string id)
+        {
+            Flor flor = _repositorio.Obter(id);
+            return View(flor);
         }
     }
 }

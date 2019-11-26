@@ -126,3 +126,5 @@ C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Fl
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Floricultura2.pdb
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Flores\Index.cshtml.g.cs
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Flores\Criar.cshtml.g.cs
+C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Flores\Detalhes.cshtml.g.cs
+C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Chocolates\Index.cshtml.g.cs

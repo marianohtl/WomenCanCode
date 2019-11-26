@@ -15,7 +15,7 @@ namespace Floricultura2.Repositorio
         private List<Flor> _flores;
 
         //Não estamos criando uma nova lista, estaremos usando uma lista criada no startup
-        //
+   //
 
 
         //injeção de dependência
@@ -35,6 +35,15 @@ namespace Floricultura2.Repositorio
         public List<Flor> Listar()
         {
             return _flores;
+        }
+
+
+        public Flor Obter (string id)
+        {
+            //quando digitar where você vai precisar dar um cntrl
+            //para adicionar o usin system linq
+            var flor = _flores.Where(x => x.Id.ToString() == id).FirstOrDefault();
+            return flor;
         }
 
 

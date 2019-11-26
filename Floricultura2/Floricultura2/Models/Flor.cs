@@ -7,7 +7,7 @@ namespace Floricultura2.Models
 {
     public class Flor
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string Especie { get; set; }
 
@@ -17,6 +17,9 @@ namespace Floricultura2.Models
 
         public double Preco { get; set; }
 
-
+        public Flor()
+        {
+            Id = Guid.NewGuid();
+        }
     }
 }
