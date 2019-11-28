@@ -1,0 +1,24 @@
+﻿@*@model List<Chocolate>*@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Chocolates Cadastrados</h1>
+<a href="/Chocolates/Criar">Adicionar Chocolate</a>
+
+@*@foreach (var item in Model)
+{
+    <p>@item.Id</p>
+    <p>@item.Tipo</p>
+    <p>@item.Recheio</p>
+
+}*@
+
+
+
+@*@foreach (var item in Model)
+    {
+        <h4>@item.Especie - @item.Cor</h4>
+        <p><strong>@item.Preco</strong> @item.Descricao</p>
+        <a class="btn" type="button" href="/Flores/Detalhes/@item.Id">Detalhes</a>
+    }*@
