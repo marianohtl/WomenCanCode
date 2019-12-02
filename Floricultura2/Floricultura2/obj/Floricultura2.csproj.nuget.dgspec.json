@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\maria\\Desktop\\Floricultura2\\Floricultura2\\Floricultura2.csproj": {}
   },
   "projects": {
@@ -19,6 +20,28 @@
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Floricultura2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Floricultura2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Floricultura2.csproj",
+        "projectName": "Floricultura2",
+        "projectPath": "C:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Floricultura2.csproj",
+        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> ce491ba407e67eff4fe2bfad8a89cfcae73d3436
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

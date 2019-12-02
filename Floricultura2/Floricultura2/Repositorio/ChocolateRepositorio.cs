@@ -12,6 +12,7 @@ namespace Floricultura2.Repositorio
         private List<Chocolate> _chocolate;
 
         //injeção de dependência -- Método Construtor
+        //injeção de dependência -- 
         public ChocolateRepositorio(List<Chocolate> chocolatesGuardados)
         {
             _chocolate = chocolatesGuardados;
@@ -24,6 +25,8 @@ namespace Floricultura2.Repositorio
         }
 
        
+        //o método abaixo vai à lista de flores e adiciona uma flor
+        //aqui temos um método do objeto flor repositório
         public void Adicionar(Chocolate chocolates)
         {
             _chocolate.Add(chocolates);

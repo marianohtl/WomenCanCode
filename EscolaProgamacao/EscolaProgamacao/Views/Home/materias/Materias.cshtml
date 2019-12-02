@@ -1,0 +1,23 @@
+﻿@model List<Materia>;
+@{
+    ViewData["Title"] = "Materias do curso";
+    
+}
+
+<h1>Materias do Curso</h1>
+<!--o rizor entende que a cada ítem refenciado acima está em Model?
+-->
+@foreach (var item in Model)
+{
+    <h4>@item.Nome</h4>
+    @if (string.IsNullOrEmpty(item.Descricao)) {
+    <p>Sem Descrição</p>
+    }
+    else
+    {
+    <p>@item.Descricao</p>
+    }
+    <hr />
+}
+
+@Html.Partial("/Views/partials/Opcoes.cshtml")

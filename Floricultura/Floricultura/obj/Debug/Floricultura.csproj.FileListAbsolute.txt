@@ -1,6 +1,0 @@
-C:\Users\maria\source\repos\Floricultura\Floricultura\obj\Debug\Floricultura.csprojAssemblyReference.cache
-C:\Users\maria\source\repos\Floricultura\Floricultura\bin\Debug\Floricultura.exe.config
-C:\Users\maria\source\repos\Floricultura\Floricultura\bin\Debug\Floricultura.exe
-C:\Users\maria\source\repos\Floricultura\Floricultura\bin\Debug\Floricultura.pdb
-C:\Users\maria\source\repos\Floricultura\Floricultura\obj\Debug\Floricultura.exe
-C:\Users\maria\source\repos\Floricultura\Floricultura\obj\Debug\Floricultura.pdb

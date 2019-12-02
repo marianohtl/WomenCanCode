@@ -128,6 +128,7 @@ C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Ra
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Flores\Criar.cshtml.g.cs
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Flores\Detalhes.cshtml.g.cs
 C:\Users\fic\source\repos\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Chocolates\Index.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Floricultura2.csprojAssemblyReference.cache
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\staticwebassets\Floricultura2.StaticWebAssets.Manifest.cache
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\staticwebassets\Floricultura2.StaticWebAssets.xml
@@ -259,3 +260,5 @@ C:\Users\maria\Desktop\Floricultura2\Floricultura2\bin\Debug\netcoreapp3.0\runti
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Floricultura2.Views.pdb
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Floricultura2.csproj.CopyComplete
 C:\Users\maria\Desktop\Floricultura2\Floricultura2\obj\Debug\netcoreapp3.0\Razor\Views\Chocolates\Criar.cshtml.g.cs
+=======
+>>>>>>> ce491ba407e67eff4fe2bfad8a89cfcae73d3436

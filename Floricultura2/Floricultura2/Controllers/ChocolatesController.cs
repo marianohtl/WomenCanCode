@@ -41,6 +41,14 @@ namespace Floricultura2.Controllers
     
 
 
+        [HttpPost]
+        public IActionResult Criar(Cho flor)
+        {
+            _repositorio.Adicionar(flor);
+            return RedirectToAction(nameof(Index));
+        }
+
+
 
 
     }

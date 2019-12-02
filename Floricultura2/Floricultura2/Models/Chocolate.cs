@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Floricultura2.Controllers
+namespace Floricultura2.Models
 {
     public class Chocolate
     {
