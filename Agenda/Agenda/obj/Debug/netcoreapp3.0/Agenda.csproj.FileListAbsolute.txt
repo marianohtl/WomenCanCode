@@ -125,3 +125,6 @@ C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Agenda.Views.pdb
 C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Agenda.dll
 C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Agenda.pdb
 C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Razor\Views\Contato\Index.cshtml.g.cs
+C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Razor\Views\Contato\Details.cshtml.g.cs
+C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Razor\Views\Contato\Create.cshtml.g.cs
+C:\Users\fic\source\repos\Agenda\Agenda\obj\Debug\netcoreapp3.0\Razor\Views\Contato\Edit.cshtml.g.cs

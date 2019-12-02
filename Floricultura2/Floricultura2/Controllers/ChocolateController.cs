@@ -1,4 +1,5 @@
-﻿using Floricultura2.Repositorio;
+﻿using Floricultura2.Models;
+using Floricultura2.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Floricultura2.Models;
 //    [Route("Chocolates/{action}")]
 //    [Route("Chocolate/{action}")]
 
@@ -27,13 +27,23 @@ namespace Floricultura2.Controllers
             var chocolates = _repositorio.Listar();
             return View(chocolates);
         }
+        public IActionResult Criar()
+        {
+            return View();
+        }
 
         [HttpPost]
-        public IActionResult Criar(Cho flor)
+        public IActionResult Criar(Chocolate chocolate)
         {
-            _repositorio.Adicionar(flor);
+            _repositorio.Adicionar(chocolate);
             return RedirectToAction(nameof(Index));
         }
+        //[HttpPost]
+        //public IActionResult Criar(Cho flor)
+        //{
+        //    _repositorio.Adicionar(flor);
+        //    return RedirectToAction(nameof(Index));
+        //}
 
 
 

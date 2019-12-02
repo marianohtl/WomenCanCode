@@ -1,16 +1,15 @@
-﻿using System;
+﻿using Agenda.Repositorio;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Agenda.Models
 {
     public class Contato
     {
-
-        public Contato(string nome, string celular,string email, 
+        private ContatoRepositorio repo ;
+        public Contato(int id,string nome, string celular,string email, 
             string comercial = null, string fixo = null, string apelido = null)
         {
+            Id = id;
             Nome = nome;
             Celular = celular;
             Email = email;
@@ -21,6 +20,12 @@ namespace Agenda.Models
             Apelido = apelido ?? string.Empty;
 
         }
+
+        public Contato()
+        {
+            repo = new ContatoRepositorio();
+        }
+        public int Id { get; set; }
         public string Nome { get; set; }
         public string Celular { get; set; }
 
@@ -31,5 +36,27 @@ namespace Agenda.Models
         public string Email { get; set; }
 
         public string Apelido { get; set; }
+ 
+    public List<Contato> RetornarTodos(){
+        return repo.SelecionarTodos();
+    }
+
+        public Contato BuscarContato(int id) {
+        return repo.BuscarContato(id);
+        }
+
+        public void IncluirContato (Contato contato){
+            repo.IncluirContato(contato);
+        }
+
+        public void EditarContato(Contato contato)
+        {
+            repo.EditarContato(contato);
+        }
+
+        public void ExcluirContato(int id)
+        {
+            repo.ExcluirContado(id);
+        }
     }
 }

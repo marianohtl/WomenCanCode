@@ -10,92 +10,75 @@ namespace Agenda.Controllers
 {
     public class ContatoController : Controller
     {
-
-        List<Contato> Contatos;
-        // GET: Contato
-
-        public ContatoController() {
-            Contatos = new List<Contato>();
-            Contatos.Add(new Contato("Litah", "11 95155-4122", "litah@gmail.com"));
+        Contato contato;
+        public ContatoController()
+        {
+            contato = new Contato();
         }
+
         public ActionResult Index()
         {
-            return View(Contatos);
+            return View(contato.RetornarTodos());
         }
 
         // GET: Contato/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+        //public ActionResult Details(int id)
+        //{
+        //    return View(contato.BuscarContato(id) ?? new Contato());
+        //}
 
-        // GET: Contato/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
+        //// GET: Contato/Create
+        //public ActionResult Create()
+        //{
+        //    return View();
+        //}
 
-        // POST: Contato/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
+        //// POST: Contato/Create
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Create(Contato contato)
+        //{
+        //    try
+        //    {
+        //        contato.IncluirContato(contato);
+        //        return View("Index",contato.RetornarTodos());
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //// GET: Contato/Edit/5
+        //public ActionResult Edit(int id)
+        //{
+        //    return View(contato.BuscarContato(id) ?? new Contato());
+        //}
 
-        // GET: Contato/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
+        //// POST: Contato/Edit/5
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Edit(Contato contato)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add update logic here
+        //        contato.EditarContato(contato);
+        //        return View("Index", contato.RetornarTodos());
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
-        // POST: Contato/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
+        //// GET: Contato/Delete/5
+        //public ActionResult Delete(int id)
+        //{
+        //    return View("Index", contato.RetornarTodos());
+        //}
 
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Contato/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Contato/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+      
+        
     }
 }

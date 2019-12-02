@@ -14397,6 +14397,11 @@
       "FilePath": "c:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Views\\Chocolates\\Index.cshtml",
       "TargetPath": "Views\\Chocolates\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fic\\source\\repos\\Floricultura2\\Floricultura2\\Views\\Chocolates\\Criar.cshtml",
+      "TargetPath": "Views\\Chocolates\\Criar.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
