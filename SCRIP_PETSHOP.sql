@@ -8,10 +8,13 @@ Descrição varchar(50)
 
 create table TipoAnimal(
 Id int primary key identity,
-
+Nome varchar(100) not null,
+Reca varchar(100) not null,
+Porte varchar(30) not null,
+DataNasc smalldatetime not null,
+Femea bit not null,
 foreign key (IdTipoAnimal) references TipoAnimal (Id)
 )
-
 create table Cliente(
 Id int primary key identity,
 Nome varchar(100) not null,
