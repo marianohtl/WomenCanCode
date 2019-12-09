@@ -7,12 +7,7 @@ namespace SistemaMedia.Models
 {
     public class Curso
     {
-        public Curso(string nomecurso,double diasaula,double qnthoraaula) {
-           NomeCurso = nomecurso;
-           DiasAula = diasaula;
-           QntHoraAula = qnthoraaula;
-      
-        }
+     
 
         public Curso()
         {

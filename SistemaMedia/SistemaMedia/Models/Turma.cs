@@ -22,7 +22,6 @@ namespace SistemaMedia.Models
         public string Sigla { get; set; }
         public string Turno { get; set; }
         public int QntdAlunos { get; set; }
-        //public List<Aluno> Alunos { get; set; }
 
 
     }

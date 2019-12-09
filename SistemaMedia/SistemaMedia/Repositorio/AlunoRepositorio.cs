@@ -23,6 +23,7 @@ namespace SistemaMedia.Repositorio
             CriarAluno();
             Aluno[0].TotalPresencaCalc();
             Aluno[0].Faltas();
+           
         }
 
         public List<Aluno> SelecionarAlunos()

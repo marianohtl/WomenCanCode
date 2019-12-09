@@ -4,71 +4,54 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Alunos</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Id)
+                Nome do Aluno
+                @*@Html.DisplayNameFor(model => model.Nome)*@
+            </th>
+
+            @*@Html.DisplayNameFor(model => model.PresencaDiaria)*@
+            <th>
+                Total de Presença
+                @*@Html.DisplayNameFor(model => model.TotalPresenca)*@
+            </th>
+            @*<th>
+            @Html.DisplayNameFor(model => model.ReprovadoFaltas)
+        </th>*@
+            <th>
+                Turma
+                @*@Html.DisplayNameFor(model => model.Sigla)*@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                Turno
+                @*@Html.DisplayNameFor(model => model.Turno)*@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Idade)
+
+                ReprovadoFaltas
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PresencaDiaria)
+
+                Total de Presença
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalPresenca)
-            </th>
-           <th>
-                @Html.DisplayNameFor(model => model.ReprovadoFaltas)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdTurma)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sigla)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Turno)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.QntdAlunos)
-            </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Idade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PresencaDiaria)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TotalPresenca)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReprovadoFaltas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdTurma)
-            </td>
+            @*<td>
+            @Html.DisplayFor(modelItem => item.ReprovadoFaltas)
+        </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Sigla)
             </td>
@@ -76,12 +59,11 @@
                 @Html.DisplayFor(modelItem => item.Turno)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.QntdAlunos)
+                @Html.DisplayFor(modelItem => item.ReprovadoFaltas)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Curso.CargaHorariaTotal)
+                @Html.DisplayFor(modelItem => item.TotalPresenca)
             </td>
-
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
