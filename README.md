@@ -1,2 +1,2 @@
 # WomanCanCode
-Trilha Csharp Woman Can Code
+Trilha Csharp Women Can Code
